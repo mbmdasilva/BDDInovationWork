@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>bdd-innovation</groupId>
-    <artifactId>BDDInnovation</artifactId>
+    <artifactId>ui-acceptance-tests</artifactId>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
