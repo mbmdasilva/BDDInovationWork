@@ -1,7 +1,7 @@
 package com.innovation.bdd.stepdefinition;
 
 
-import com.innovation.bdd.pages.TimePage;
+import com.innovation.bdd.pages.ui.TimePage;
 import com.innovation.bdd.pages.api.ApiPage;
 import com.innovation.bdd.support.Driver;
 import cucumber.api.java.en.Given;
@@ -51,11 +51,15 @@ public class StepDef {
     }
 
 
+    @Then("^Then I assert that time is correct$")
+    public void then_I_assert_that_time_is_correct() throws Throwable {
+    //    apiPage.apiTime();
 
-    @Then("^Then I assert a (\\d+) is returned$")
-    public void then_I_assert_a_is_returned(int arg1) throws Throwable {
-        apiPage.apiTime();
+    }
 
+    @Then("^I assert the cities are displayed$")
+    public void i_assert_the_cities_are_displayed() throws Throwable {
+        apiPage.apiCities();
     }
 
 

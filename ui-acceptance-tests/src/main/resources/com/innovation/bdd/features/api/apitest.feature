@@ -7,4 +7,5 @@ Feature: Api level test of Time Machine
   Scenario: time is diplaying correctly
 
     Given I have entered the url for time
-    Then Then I assert a 200 is returned
+    Then Then I assert that time is correct
+    And I assert the cities are displayed

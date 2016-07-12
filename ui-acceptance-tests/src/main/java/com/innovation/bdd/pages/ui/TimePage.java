@@ -1,4 +1,4 @@
-package com.innovation.bdd.pages;
+package com.innovation.bdd.pages.ui;
 
 
 import com.innovation.bdd.support.Driver;
