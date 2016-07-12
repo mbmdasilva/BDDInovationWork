@@ -13,7 +13,7 @@ public class TimePage extends Driver {
 
   public void enterCityName(){
     inputCity.clear();
-    inputCity.sendKeys("London");
+    inputCity.sendKeys("Luanda");
 
     }
     public void enterNumber(){
